@@ -1,0 +1,41 @@
+name: Deploy Nuxt Studio Wiki
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Nuxt Studio
+        run: npm run build
+
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v0.1.7
+        with:
+          host: influencraft.fr
+          username: dofault
+          key: ${{ secrets.SERVER_SSH_KEY }}
+          port: 22
+          script: |
+            cd /home/dofault/influencraft/web/wiki-influencraft
+            git pull origin main
+            npm ci
+            npm run build
+            pm2 delete wiki-influencraft || true
+            pm2 start ecosystem.config.cjs --env production
+            pm2 save
