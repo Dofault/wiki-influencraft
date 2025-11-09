@@ -1,17 +1,15 @@
 ---
 seo:
-  title: Write beautiful docs with Markdown
-  description: Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box. Docus brings together the best of the Nuxt ecosystem. Powered by Nuxt UI.
+  title: Wiki Influencraft - Serveur Minecraft orienté ville
+  description: Découvrez le Wiki d'Influencraft, un serveur Minecraft orienté ville. Guides, astuces et documentation pour construire, gérer et développer votre ville.
 ---
 
 ::u-page-hero
 #title
-Write beautiful docs with Markdo
+Wiki Influencraft
 
 #description
-Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box.
-
-Docus brings the best of the Nuxt ecosystem into one CLI.
+Le wiki officiel du serveur **Influencraft**, un serveur Minecraft orienté ville. Retrouve tous les guides, astuces et ressources pour bâtir et gérer ta ville.
 
 #links
   :::u-button
@@ -21,7 +19,7 @@ Docus brings the best of the Nuxt ecosystem into one CLI.
   to: /getting-started/installation
   trailing-icon: i-lucide-arrow-right
   ---
-  Get started
+  Commencer
   :::
 
   :::u-button
@@ -29,93 +27,67 @@ Docus brings the best of the Nuxt ecosystem into one CLI.
   color: neutral
   icon: simple-icons-github
   size: xl
-  to: https://github.com/nuxt-content/docus
+  to: https://github.com/ton-repo/influencraft
   variant: outline
   ---
-  Star on GitHub
+  GitHub
   :::
 ::
 
 ::u-page-section
 #title
-Shipped with many features
+Fonctionnalités du serveur
 
 #features
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
+  icon: i-minecraft
   target: _blank
-  to: https://nuxt.com
+  to: /guide/urbanisme
   ---
   #title
-  Built with [Nuxt 4]{.text-primary}
+  Construction et urbanisme
   
   #description
-  Optimized by the most famous Vue framework. Docus gives you everything you need to build fast, performant, and SEO-friendly websites.
+  Apprends à construire et développer ta ville avec nos guides sur le zoning, l'architecture et la planification urbaine.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
+  icon: i-simple-icons-economics
   target: _blank
-  to: https://ui.nuxt.com/
+  to: /guide/economie
   ---
   #title
-  Powered by [Nuxt UI]{.text-primary}
+  Économie et commerces
   
   #description
-  Beautiful out of the box, minimal by design but highly customizable. Docus leverages Nuxt UI to give you the best docs writing experience with zero boilerplate, just focus on your content.
+  Gère ton économie personnelle et participe au commerce avec les autres joueurs pour développer ta ville.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
+  icon: i-simple-icons-people
   target: _blank
-  to: https://content.nuxt.com
+  to: /guide/communauté
   ---
   #title
-  Enhanced Markdown syntax by [Nuxt Content]{.text-primary}
+  Communauté et événements
   
   #description
-  The only thing you need to take care about is writing your content. Write your pages in Markdown and extend with MDC syntax to embed Nuxt UI or custom Vue components. Structure, routing, and rendering are handled for you.
+  Participe à la vie du serveur, rejoins des événements et collabore avec d'autres joueurs pour enrichir ton expérience.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
+  icon: i-simple-icons-minecraft
   target: _blank
-  to: https://nuxt.com/docs/guide/directory-structure/app-config
+  to: /guide/mods
   ---
   #title
-  Customize with [Nuxt App Config]{.text-primary}
+  Mods et extensions
   
   #description
-  Update colors, social links, header logos and component styles globally using the `app.config.ts`, no direct code modifications required.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://content.nuxt.com/studio
-  ---
-  #title
-  Collaborate on [Nuxt Studio]{.text-primary}
-  
-  #description
-  Write and manage your content visually, with zero Markdown knowledge required. Let your non technical colleagues collaborate on the documentation and integrate Vue components without code skills.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/components/content-search
-  ---
-  #title
-  Built-in navigation and [full-text search]{.text-primary}
-  
-  #description
-  Only focus on ordering your content, Docus handles the search modal and auto-generates the side navigation for you.
+  Découvre les mods et extensions compatibles pour améliorer ton expérience sur Influencraft.
   :::
 ::
