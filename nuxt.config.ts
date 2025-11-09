@@ -1,9 +1,7 @@
 // nuxt.config.ts
 export default defineNuxtConfig({
-    modules: [
-    '@nuxt/content',
-    'nuxt-studio'
-  ],
+modules: process.dev ? ['@nuxt/content', 'nuxt-studio'] : ['@nuxt/content'],
+
 
     extends: 'docus',
 
@@ -53,20 +51,20 @@ export default defineNuxtConfig({
     }
   },
 
-    vite: {
-    define: {
-      global: 'globalThis',
-    },
-    optimizeDeps: {
-      include: ['vue', '@headlessui/vue']
-    },
-    server: {
-      // @ts-ignore pour éviter l'erreur TypeScript
-      host: '0.0.0.0',
-      // @ts-ignore
-      port: 3001,
-      // @ts-ignore
-      allowedHosts: ['influencraft.fr', 'localhost', '127.0.0.1']
-    } as any
-  },
+  //   vite: {
+  //   define: {
+  //     global: 'globalThis',
+  //   },
+  //   optimizeDeps: {
+  //     include: ['vue', '@headlessui/vue']
+  //   },
+  //   server: {
+  //     // @ts-ignore pour éviter l'erreur TypeScript
+  //     host: '0.0.0.0',
+  //     // @ts-ignore
+  //     port: 3003,
+  //     // @ts-ignore
+  //     allowedHosts: ['wiki.influencraft.fr', 'localhost', '127.0.0.1']
+  //   } as any
+  // },
 })
