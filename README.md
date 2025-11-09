@@ -10,6 +10,7 @@ This is the default Docus starter template that provides everything you need to 
 ## ✨ Features
 
 - 🎨 **Beautiful Design** - Clean, modern documentation theme
+- 
 - 📱 **Responsive** - Mobile-first responsive design  
 - 🌙 **Dark Mode** - Built-in dark/light mode support
 - 🔍 **Search** - Full-text search functionality
