@@ -39,6 +39,7 @@ export default defineNuxtConfig({
     // Studio admin route (default: '/_studio')
     route: '/_studio',
     
+    
     // GitHub repository configuration (owner and repo are required)
     repository: {
       provider: 'github', // only GitHub is currently supported
