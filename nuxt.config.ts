@@ -1,6 +1,6 @@
 // nuxt.config.ts
 export default defineNuxtConfig({
-modules: process.dev ? ['@nuxt/content', 'nuxt-studio'] : ['@nuxt/content'],
+modules: ['@nuxt/content', 'nuxt-studio'],
 
 
     extends: 'docus',
