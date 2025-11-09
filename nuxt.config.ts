@@ -19,16 +19,16 @@ export default defineNuxtConfig({
       if (index !== -1) pages.splice(index, 1)
     }
   },
-  content: {
-    preview: {
-      api: 'https://api.nuxt.studio',
-      gitInfo: {
-        name: 'wiki-influencraft',
-        owner: 'Dofault',
-        url: 'https://github.com/Dofault/wiki-influencraft'
-      }
-    }
-  },
+  // content: {
+  //   preview: {
+  //     api: 'https://api.nuxt.studio',
+  //     gitInfo: {
+  //       name: 'wiki-influencraft',
+  //       owner: 'Dofault',
+  //       url: 'https://github.com/Dofault/wiki-influencraft'
+  //     }
+  //   }
+  // },
   nitro: {
     experimental: {
         websocket: true
