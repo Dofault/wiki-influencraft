@@ -22,6 +22,7 @@ jobs:
         run: |
           cd /home/dofault/influencraft/web/wiki-influencraft
           git reset --hard origin/main   # force update pour éviter les conflits
+          git pull
           npm ci
           npm run build
           pm2 delete wiki-influencraft || true
