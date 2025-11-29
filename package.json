@@ -1,14 +1,14 @@
 {
-  "name": "docus-starter",
-  "scripts": {
-    "dev": "nuxt dev",
-    "build": "nuxt build"
-  },
-  "dependencies": {
-    "@nuxt/content": "^3.8.0",
-    "better-sqlite3": "^12.2.0",
-    "docus": "latest",
-    "nuxt": "^4.1.2",
-    "nuxt-studio": "^1.0.0-alpha.1"
-  }
+	"name": "docus-starter",
+	"scripts": {
+		"dev": "nuxt dev",
+		"build": "nuxt build"
+	},
+	"dependencies": {
+		"@nuxt/content": "^3.8.0",
+		"better-sqlite3": "^12.2.0",
+		"docus": "latest",
+		"nuxt": "^4.1.2",
+		"nuxt-studio": "^1.0.0-alpha.2"
+	}
 }
