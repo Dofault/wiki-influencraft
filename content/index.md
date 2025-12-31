@@ -16,7 +16,7 @@ Le wiki officiel du serveur **Influencraft**, un serveur Minecraft orienté vill
   ---
   color: neutral
   size: xl
-  to: /getting-started/installation
+  to: /accueil/wiki
   trailing-icon: i-lucide-arrow-right
   ---
   Commencer
@@ -47,7 +47,7 @@ Fonctionnalités du serveur
   ---
   #title
   Construction et urbanisme
-  
+
   #description
   Apprends à construire et développer ta ville avec nos guides sur le zoning, l'architecture et la planification urbaine.
   :::
@@ -60,7 +60,7 @@ Fonctionnalités du serveur
   ---
   #title
   Économie et commerces
-  
+
   #description
   Gère ton économie personnelle et participe au commerce avec les autres joueurs pour développer ta ville.
   :::
@@ -73,7 +73,7 @@ Fonctionnalités du serveur
   ---
   #title
   Communauté et événements
-  
+
   #description
   Participe à la vie du serveur, rejoins des événements et collabore avec d'autres joueurs pour enrichir ton expérience.
   :::
@@ -86,7 +86,7 @@ Fonctionnalités du serveur
   ---
   #title
   Mods et extensions
-  
+
   #description
   Découvre les mods et extensions compatibles pour améliorer ton expérience sur Influencraft.
   :::
